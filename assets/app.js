@@ -3,7 +3,7 @@ var myApp = angular.module('sortableContainerApp', ['ui.sortable']);
 myApp.controller('sortableController', function($scope) {
     var tmpList = [];
     
-    $scope.items = [
+    $scope.rawItems = [
         [{
             title: 'Google',
             link: 'https://google.com'
@@ -58,7 +58,7 @@ myApp.controller('sortableController', function($scope) {
     
     $scope.sortingLog = [];
     
-    function createOption (listName) {
+    function createOptions (listName) {
         var _listName = listName;
         var options = {
             placeholder: "app",
