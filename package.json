@@ -1,0 +1,10 @@
+{
+    "name": "",
+    "version": "1.0.0",
+    "description": "A small Anugular app that uses it's sortable feature to move items from one container to another.",
+    "dependencies": 
+    {
+        "express": "~4.0.0",
+        "ejs": "~1.0.0"
+    }
+}
